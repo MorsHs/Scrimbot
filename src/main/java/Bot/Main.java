@@ -20,7 +20,7 @@ public class Main {
 	
 	JDA jda = JDABuilder.createDefault("Nzk4MzcwMjc1OTAxMTc3OTA5.X_0CQg.UJFgLQexQLMldnT098NUqG2IY8I").build();
 		jda.getPresence().setStatus(OnlineStatus.ONLINE); 
-		jda.getPresence().setActivity(Activity.playing("!scrimhelp for commands"));
+		
 	jda.addEventListener(new Commands());
 }
 }
