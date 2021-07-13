@@ -17,7 +17,7 @@ public class Main {
 	public static String prefix = "!";
 	
 	public static void main(String[] args) throws LoginException {
-	JDA jda = JDABuilder.createDefault("Nzk4MzcwMjc1OTAxMTc3OTA5.X_0CQg.UJFgLQexQLMldnT098NUqG2IY8I").build();
+	JDA jda = JDABuilder.createDefault("INSERT TOKEN").build();
 		jda.getPresence().setStatus(OnlineStatus.ONLINE); 
 		jda.getPresense().setActivity(Activity.playing("test"));
 	jda.addEventListener(new Commands());
