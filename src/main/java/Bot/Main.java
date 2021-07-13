@@ -19,7 +19,7 @@ public class Main {
 	public static void main(String[] args) throws LoginException {
 	JDA jda = JDABuilder.createDefault("INSERT TOKEN").build();
 		jda.getPresence().setStatus(OnlineStatus.ONLINE); 
-		jda.getPresense().setActivity(Activity.playing("test"));
+		jda.getPresense().setActivity(Activity.playing("INSERT GAME ACTIVITY"));
 	jda.addEventListener(new Commands());
 }
 }
